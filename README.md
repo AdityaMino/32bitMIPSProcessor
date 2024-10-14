@@ -51,7 +51,7 @@ This methodology outlines the efficient operation of the MIPS 32 Processor throu
 
 The Testbench contains the following assembly code in hexadecimal format, to execute the various instructions –
 
-'''
+```assembly
   ADDI R0,R0,0
   ADDI R1,R0,10
   ADDI R2,R0,05
@@ -59,7 +59,7 @@ The Testbench contains the following assembly code in hexadecimal format, to exe
   ADD R4,R1,R2
   SUB R5,R1,R2
   HLT 
-'''
+```
 
 RISC architecture enhances CPU performance by enabling greater thread execution and boosting instruction processing speed. This architecture is prevalent in a variety of devices, including smartphones, tablets, and laptops. RISC processors are not only faster but also more cost-effective to design and manufacture due to their simpler components and fewer transistors. This makes them ideal for use in system-on-chip designs, a prominent trend in modern processor development. MIPS-based architectures exemplify RISC principles, though they can vary based on pipeline implementations, such as single-cycle or multi-cycle designs.
 The various instructions that can be implemented are as follows:
