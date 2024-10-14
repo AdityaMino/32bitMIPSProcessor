@@ -6,7 +6,11 @@ This project involves designing and implementing a 32-bit processor using Verilo
 
 ## Methodology
 The MIPS 32 Processor project involves creating a 32-bit MIPS processor in Verilog HDL with a five-stage pipeline: Instruction Fetch (IF), Instruction Decode (ID), Execution (EX), Memory Access (MEM), and Write Back (WB). The design supports a range of instructions and branching operations to execute efficiently.
-Key Design Aspects
+
+![image](https://github.com/user-attachments/assets/4db6f62a-4d85-42f0-a07a-abccf22edb00)
+
+
+Key Design Aspects include -
 1.	Pipelined Architecture
 
 Stages: IF (fetches instructions), ID (decodes and reads registers), EX (performs calculations), MEM (handles memory operations), WB (writes results back).
@@ -47,7 +51,8 @@ Memory: 1024 locations for instructions and data.
 
 This methodology outlines the efficient operation of the MIPS 32 Processor through its pipelined stages, handling various instructions and maintaining accurate control flow.
 
-##RESULTS AND DISCUSSIONS
+## RESULTS AND DISCUSSIONS
+![image](https://github.com/user-attachments/assets/9a08ba2f-d199-4e88-b5c5-15a0bd3d616e)
 
 The Testbench contains the following assembly code in hexadecimal format, to execute the various instructions –
 
@@ -69,3 +74,8 @@ The various instructions that can be implemented are as follows:
 - Load and Store: LW (Load Word) and SW (Store Word) handle memory operations, moving data between registers and memory.
 - Branching: Instructions like BEQZ (Branch if Equal to Zero) and BNEQZ (Branch if Not Equal to Zero) facilitate conditional branching based on the outcome of previous computations.
 - HALT: A special instruction to stop the processor.
+  
+## Conclusion 
+The MIPS 32 Processor project has successfully demonstrated the advantages of RISC architecture in enhancing CPU performance through increased parallelism and faster instruction execution. The use of fewer transistors in RISC designs not only contributes to reduced production costs but also makes these processors well-suited for integration into system-on-chip applications.
+
+Looking ahead, there is significant potential to further optimize and refine pipeline implementations, such as exploring advanced multi-cycle designs. Future work could focus on expanding the processor’s capabilities, improving efficiency, and adapting the architecture for emerging technologies and applications. This will ensure that the MIPS 32 Processor continues to meet evolving demands and remain relevant in the ever-advancing field of processor design.
