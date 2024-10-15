@@ -1,4 +1,8 @@
-# 32bitMIPSProcessor
+[![AMD Vivado](https://img.shields.io/badge/AMD%20Vivado-%237F00FF.svg?style=flat&logo=amd&logoColor=white)](https://www.xilinx.com/products/design-tools/vivado.html)
+[![Verilog](https://img.shields.io/badge/Verilog-%23F00000.svg?style=flat&logoColor=white)](https://en.wikipedia.org/wiki/Verilog)
+[![RISC-V](https://img.shields.io/badge/RISC--V-%23007D84.svg?style=flat&logo=risc-v&logoColor=white)](https://riscv.org/)
+
+# 32 bit RISC-V MIPS Processor 
 This project involves designing and implementing a 32-bit processor using Verilog Hardware Description Language (HDL). The processor is created as part of this NIELIT Internship, as an effort to understand the basics of computer architecture and digital design. 
 
 ## Abstract 
@@ -8,7 +12,6 @@ This project involves designing and implementing a 32-bit processor using Verilo
 The MIPS 32 Processor project involves creating a 32-bit MIPS processor in Verilog HDL with a five-stage pipeline: Instruction Fetch (IF), Instruction Decode (ID), Execution (EX), Memory Access (MEM), and Write Back (WB). The design supports a range of instructions and branching operations to execute efficiently.
 
 ![image](https://github.com/user-attachments/assets/4db6f62a-4d85-42f0-a07a-abccf22edb00)
-
 
 Key Design Aspects include -
 1.	Pipelined Architecture
@@ -77,5 +80,7 @@ The various instructions that can be implemented are as follows:
   
 ## Conclusion 
 The MIPS 32 Processor project has successfully demonstrated the advantages of RISC architecture in enhancing CPU performance through increased parallelism and faster instruction execution. The use of fewer transistors in RISC designs not only contributes to reduced production costs but also makes these processors well-suited for integration into system-on-chip applications.
+
+![image](https://github.com/user-attachments/assets/9e5644f9-832d-4248-9f6b-4a01aea919c1)
 
 Looking ahead, there is significant potential to further optimize and refine pipeline implementations, such as exploring advanced multi-cycle designs. Future work could focus on expanding the processor’s capabilities, improving efficiency, and adapting the architecture for emerging technologies and applications. This will ensure that the MIPS 32 Processor continues to meet evolving demands and remain relevant in the ever-advancing field of processor design.
